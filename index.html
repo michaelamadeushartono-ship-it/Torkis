@@ -168,17 +168,12 @@
         }
 
         /* Hero avatar placeholder */
-        .hero-avatar {
-            width: 250px;
-            height: 250px;
+        .hero-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: COVER;
             border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary), #FF6B9D);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 5rem;
-            flex-shrink: 0;
-            box-shadow: 0 0 60px rgba(108, 99, 255, 0.3);
+            
         }
 
         /* ============================================
@@ -439,11 +434,11 @@
          ============================================ -->
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">✨ My Portfolio</a>
+            <a href="#" class="logo">Portfolio Michael Amadeus Hartono </a>
             <button class="menu-toggle" onclick="toggleMenu()">☰</button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Hobby</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -456,18 +451,19 @@
          ============================================ -->
     <section class="hero">
         <div class="hero-text">
-            <h1>Hello  <span class="highlight">I'm Torkis</span></h1>
-            <p class="subtitle">Aspiring Web Developer & Designer</p>
+            <h2>Hello, I'm <span class="highlight">Michael</span></h2>
+            <p class="subtitle"> Senior high school <strong>student</strong>  </p>
             <p>
-                I build beautiful, functional websites and love turning ideas into
-                real, working code. Always learning, always creating.
+                I'm studying in Wardaya school and currently trying my best to achive my dreams.
             </p>
             <div>
                 <a href="#projects" class="btn">View My Work</a>
                 <a href="#contact" class="btn btn-outline">Get In Touch</a>
             </div>
         </div>
-        <div class="hero-avatar">💻</div>
+        <div class="hero-avatar">
+          <img src = "./crt.jpeg"
+         </div>
         <!-- Change the emoji above to something that represents you!
              Or replace with an <img> tag for your photo! -->
     </section>
@@ -480,19 +476,13 @@
         <div class="about-content">
             <div class="about-text">
                 <p>
-                    I'm a passionate web developer who loves creating clean,
-                    user-friendly websites. I started coding in high school
-                    and haven't stopped since!
+                    I'm just a normal student that love sport and science.
                 </p>
-                <p>
-                    When I'm not coding, you can find me exploring new
-                    technologies, contributing to open-source projects,
-                    or learning about UI/UX design.
-                </p>
+               
                 <div class="about-stats">
                     <div class="stat">
-                        <div class="number" id="projectCount">0</div>
-                        <div class="label">Projects</div>
+                        <div class="number" id=>2</div>
+                        <div class="label">hobbies</div>
                     </div>
                     <div class="stat">
                         <div class="number">2+</div>
@@ -512,107 +502,60 @@
          Add more project cards, or remove the examples
          ============================================ -->
     <section id="projects">
-        <h2>My Projects</h2>
+        <h2>My hobby</h2>
         <div class="projects-grid" id="projectsGrid">
 
             <!-- Project Card 1 — Replace with YOUR project! -->
             <div class="project-card">
-                <h3>🏪 E-Commerce Landing Page</h3>
-                <p>A responsive, modern landing page for an online store
-                   built with HTML, CSS, and JavaScript.</p>
-                <div class="tags">
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">JavaScript</span>
-                </div>
-                <a href="#" class="btn">View Project →</a>
+                <h3>Wushu</h3>
+                <p>I learn wushu from 7 yaers old until now,and i still try my best to be the best</p>
+                
             </div>
 
             <!-- Project Card 2 -->
             <div class="project-card">
-                <h3>📝 Task Manager App</h3>
-                <p>A simple to-do list application with local storage
-                   support — no backend needed!</p>
-                <div class="tags">
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">JS (LocalStorage)</span>
-                </div>
-                <a href="#" class="btn">View Project →</a>
+                <h3>Running</h3>
+                <p>The sport i do every weekend for increase my stamina and keep my body fit </p>
+                
             </div>
-
-            <!-- Project Card 3 -->
-            <div class="project-card">
-                <h3>🎨 Color Palette Generator</h3>
-                <p>Generate beautiful color palettes with a single click.
-                   Perfect for designers and developers.</p>
-                <div class="tags">
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">JavaScript</span>
-                </div>
-                <a href="#" class="btn">View Project →</a>
-            </div>
-
-        </div>
     </section>
 
     <!-- ============================================
          🛠️ SKILLS — What technologies do you know?
          ============================================ -->
-    <section id="skills">
-        <h2>Skills & Tools</h2>
-        <div class="skills-container">
+<section id="projects">
+        <h2>Achievements</h2>
+        <div class="projects-grid" id="projectsGrid">
 
-            <div class="skill-category">
-                <h3>🌐 Frontend</h3>
-                <div class="skill-list">
-                    <span class="skill-item">HTML5</span>
-                    <span class="skill-item">CSS3</span>
-                    <span class="skill-item">JavaScript</span>
-                    <span class="skill-item">Responsive Design</span>
-                    <span class="skill-item">Flexbox</span>
-                    <span class="skill-item">Grid</span>
-                </div>
+            <!-- Project Card 1 — Replace with YOUR project! -->
+            <div class="project-card">
+                <h3>Competitions</h3>
+                <p>Gold,Silver,and Bronze medalist throught out wushu competition</p>
+                
             </div>
 
-            <div class="skill-category">
-                <h3>🛠️ Tools</h3>
-                <div class="skill-list">
-                    <span class="skill-item">Git & GitHub</span>
-                    <span class="skill-item">VS Code</span>
-                    <span class="skill-item">Figma</span>
-                    <span class="skill-item">Chrome DevTools</span>
-                </div>
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <h3>Organizations</h3>
+                <p>As a member of leo club STELLA VIVA</p>
+            
+                
             </div>
-
-            <div class="skill-category">
-                <h3>📚 Learning</h3>
-                <div class="skill-list">
-                    <span class="skill-item">Python</span>
-                    <span class="skill-item">React (soon!)</span>
-                    <span class="skill-item">Node.js (soon!)</span>
-                </div>
-            </div>
-
-        </div>
     </section>
-
     <!-- ============================================
          📬 CONTACT — How can people reach you?
          ============================================ -->
     <section id="contact">
         <h2>Get In Touch</h2>
         <div class="contact-links">
-            <a href="mailto:your.email@example.com" class="contact-link">
+            <a href="mailto:michaelamadeushartono@gmail.com" class="contact-link">
                 📧 Email Me
             </a>
             <a href="https://github.com/yourusername" target="_blank" class="contact-link">
                 💻 GitHub
             </a>
-            <a href="#" class="contact-link">
-                💼 LinkedIn
-            </a>
+           
+          
         </div>
     </section>
 
@@ -620,7 +563,7 @@
          📄 FOOTER
          ============================================ -->
     <footer>
-        <p>© <span id="currentYear">2026</span> Your Name — Built with 💜 and vanilla code</p>
+        <p>© <span id="currentYear">2026</span> Michael Amadeus hartono — Built with 💜 and vanilla code</p>
     </footer>
 
     <!-- ============================================
